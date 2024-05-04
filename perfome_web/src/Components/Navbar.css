@@ -1,0 +1,12 @@
+.nav-wrapper {
+  display: flex;
+  /* display: space-evenly; */
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 0px;
+}
+
+.text-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+}
