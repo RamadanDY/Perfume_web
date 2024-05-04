@@ -19,9 +19,8 @@ const Navbar = () => {
         </div>
 
         <div className="icons">
-        <IoPersonOutline />
-        <TiShoppingCart />
-
+            <IoPersonOutline />
+            <TiShoppingCart />
         </div>
         
     </div>
