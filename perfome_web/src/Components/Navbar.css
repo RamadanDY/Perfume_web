@@ -3,6 +3,9 @@
   /* display: space-evenly; */
   justify-content: space-between;
   align-items: center;
+  padding-top: auto;
+  /* margin: 10px 1px; */
+  height: 70px;
 }
 
 .text-wrapper {
@@ -10,9 +13,14 @@
   gap: 22px;
 }
 
+.logo-wrapper {
+  /* this property removed the background color of the logo */
+  mix-blend-mode: multiply;
+  /* this property also reduces the size of the logo */
+  transform: scale(0.2);
+}
 .icons {
-  dispaly: flex;
-  padding: 20px;
-  margin: 20px;
-  border: 2px solid red;
+  display: flex;
+  gap: 20px;
+  outline: 1px solid red;
 }

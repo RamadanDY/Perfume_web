@@ -8,19 +8,23 @@ import './Navbar.css'
 const Navbar = () => {
   return (
     <div className="nav-wrapper">
-        <div className="text-wrapper">
+        <div className="text-wrapper ">
             <h3>INFO</h3>
             <h3>EXPLORE</h3>
             <h3>FAQ</h3>
         </div>
 
-        <div className="logo_wrapper">
+        <div className="logo-wrapper">
             <img src={pic} className='logo' alt='' />
         </div>
 
         <div className="icons">
-            <IoPersonOutline />
-            <TiShoppingCart />
+            <div className="info">
+                <IoPersonOutline />
+            </div>
+            <div className="cart">
+                <TiShoppingCart />
+            </div> 
         </div>
         
     </div>
