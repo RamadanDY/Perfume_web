@@ -1,0 +1,24 @@
+.imgsec-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2px;
+  border: 1px solid red;
+  margin: 40px 0px;
+}
+
+.imgsec-wrapper img {
+  transform: scale(0.4.5);
+  height: 200px;
+  width: 200px;
+}
+.imgsec-wrapper img:hover {
+  transform: scaleX(-1);
+}
+
+.imgsec-wrapper h4 {
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+}
+.img1 {
+}
