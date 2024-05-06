@@ -7,6 +7,7 @@ import Navbar from "./Components/Navbar";
 import "./App.css";
 import Section from "./Components/Section";
 import Imgsec from "./Components/Imgsec";
+import Herosec from "./Components/Herosec";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -14,6 +15,7 @@ root.render(
     <Navbar />
     <Section />
     <Imgsec />
+    <Herosec />
     <App />
   </React.StrictMode>
 );

@@ -22,6 +22,7 @@ const Navbar = () => {
             <div className="info">
                 <IoPersonOutline />
             </div>
+            <span className='font-bold text-2xl'>|</span>
             <div className="cart">
                 <TiShoppingCart />
             </div> 

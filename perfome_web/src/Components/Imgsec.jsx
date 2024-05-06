@@ -7,21 +7,21 @@ import './Imgsec.css'
 
 const imgsec = () => {
   return (
-    <div className='imgsec-wrapper'>
-        <div className="img1">
-            <img src={pic1} alt="" srcset="" />
+    <div style={{display:'flex', gap:90, justifyContent:'center', alignItems:'center', marginTop:9}}>
+        <div className="flex flex-col gap-2 justify-center items-center">
+            <img style={{width:'9rem', height: '9rem'}} src={pic1} alt="" srcset="" />
             <h4>Seasonal Scents</h4>
         </div>
-        <div className="img2">
-            <img src={pic2} alt="" srcset="" />
+        <div className="flex flex-col gap-2 justify-center items-center">
+            <img style={{width:'9rem', height: '9rem'}} src={pic2} alt="" srcset="" />
             <h4>Travel With Creed</h4>
         </div>
-        <div className="img3">
-            <img src={pic3} alt="" srcset="" />
+        <div className="flex flex-col gap-2 justify-center items-center">
+            <img style={{width:'9rem', height: '9rem'}} src={pic3} alt="" srcset="" />
             <h4>24/7</h4>
         </div>
-        <div className="img4">
-            <img src={pic4} alt="" srcset="" />
+        <div className=";flex flex-col gap-2 justify-center items-center">
+            <img style={{width:'9rem', height: '9rem'}} src={pic4} alt="" srcset="" />
             <h4>One Spray <br /> Wonder</h4>
         </div>
     </div>
